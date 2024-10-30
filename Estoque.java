@@ -1,12 +1,11 @@
 import java.util.List;
 import java.util.ArrayList;
 
-
 public class Estoque {
     private List<Produto> produtos;
 
 public Estoque() {
-    produtos = new ArrayList<>();
+    produto = new ArrayList<>();
 
     public void adicionarProduto (Produto produtos){
         produtos.add(produtos);
